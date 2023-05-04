@@ -1,0 +1,17 @@
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\bin\Debug\proiect_mtp_croicu_alexandra.exe.config
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\bin\Debug\proiect_mtp_croicu_alexandra.exe
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\bin\Debug\proiect_mtp_croicu_alexandra.pdb
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Form1.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Properties.Resources.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.exe
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.pdb
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.gsm.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Inregistrare.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Cases.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Foils.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Phones.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Chargers.resources
+C:\Users\Alex\source\repos\proiect_mtp_croicu_alexandra\proiect_mtp_croicu_alexandra\obj\Debug\proiect_mtp_croicu_alexandra.Headp.resources

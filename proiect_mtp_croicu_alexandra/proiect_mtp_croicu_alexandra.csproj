@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD7023DE-FCB9-4744-9F5E-D9CB90DD7DAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proiect_mtp_croicu_alexandra</RootNamespace>
+    <AssemblyName>proiect_mtp_croicu_alexandra</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cases.Designer.cs">
+      <DependentUpon>Cases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chargers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chargers.Designer.cs">
+      <DependentUpon>Chargers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Foils.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foils.Designer.cs">
+      <DependentUpon>Foils.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gsm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gsm.Designer.cs">
+      <DependentUpon>gsm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Headp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Headp.Designer.cs">
+      <DependentUpon>Headp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inregistrare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inregistrare.Designer.cs">
+      <DependentUpon>Inregistrare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phones.Designer.cs">
+      <DependentUpon>Phones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cases.resx">
+      <DependentUpon>Cases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chargers.resx">
+      <DependentUpon>Chargers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foils.resx">
+      <DependentUpon>Foils.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gsm.resx">
+      <DependentUpon>gsm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Headp.resx">
+      <DependentUpon>Headp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inregistrare.resx">
+      <DependentUpon>Inregistrare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phones.resx">
+      <DependentUpon>Phones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-key-security-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-key-security-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b1731.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b1732.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b1733.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b1734.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60a62280d39744b196dc3070cc46b1735.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
